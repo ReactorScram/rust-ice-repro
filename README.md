@@ -1,1 +1,1 @@
-`cargo clippy` to replicate.
+`cargo check` to replicate.
