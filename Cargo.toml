@@ -6,6 +6,4 @@ edition = "2021"
 authors = ["Firezone, Inc."]
 
 [dependencies]
-futures = "0.3.30"
 tracing = "0.1.40"
-tokio = { version = "1.36.0", features = ["signal"] }

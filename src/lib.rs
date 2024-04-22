@@ -1,7 +1,5 @@
-use std::future;
-
 pub fn run() {
-    let mut sigint = tokio::signal::unix::signal(unimplemented!())?;
+    let mut sigint = unimplemented!();
 
     loop {
         if sigint.poll_recv(cx).is_ready() {
